@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="button1">Hjem</div>
+            <div id="button2" class="button2">Kalender</div>
+            <div href="#about" class="button3">Om os</a>
+        </nav>
+    </header>
+
+
+    <img src="images/logo.png" alt="Logo" class="logo">
+
+    
+    <main>
+
+    <img src="images/snor2.png" alt="Logo" class="snor2">
+
+       
+            <img src="images/t-shirt.png" alt="T-shirt" class="right-image">
+
+        </div>
+        <section class="welcome">
+            <h2>Velkommen til knap!</h2>
+            <p>Vi hjælper dig med at give dit gamle tøj nyt liv D.I.Y. <br>
+            Så lad os komme i gang!<br>
+            Her kan du finde upcoming events i at sy, bytte tøj dage, og mere.</p>
+        </section>
+      
+    </main>
+
+    
+    <section class="video-rectangle">
+        <div class="video-frame">
+            <video controls>
+                <source src="images/KNAPvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    
+    <div class="fax">
+        <p>Facts</p>
+    </div>
+
+
+    <div class="info-box">
+        <p>Hver dansker køber i gennemsnit 15 kg nyt tøj om året, og 4 af 10 stykker tøj hænger ubrugt i garderoben.</p>
+    </div>
+    
+    <div class="info-box1">
+        <p>I det store CO2-regnskab er tekstiler også en synder. Tøj og tekstil står for op mod 10 % af de globale CO2-udledninger.
+            Det er mere end fly- og shippingbranchen tilsammen.</p>
+    </div>
+
+    <div class="info-box2">
+        <p>Omkring 35% af den primære mikroplast, som flyder rundt i verdens have, kommer fra tekstiler.</p>
+    </div>
+
+    
+
+    <img src="images/kalender .png" alt="kalender" class="kalender">
+
+
+    <img src="images/nål-tråd.png" alt="nål-tråd" class="nål-tråd">
+
+    <div>
+        <a href="#nyhedsbrev" class="nyhedsbrev">Nyhedsbrev</a>
+    </div>
+    
+
+    <div class="footer">
+        <p> KNAP Tlf: 10293847 Mail: knap@gmail.com  addr: Birkeholmvej 33, 4600 Køge</p>
+    </div>
+
+
+
+
+    <script>
+    
+        document.getElementById("button2").addEventListener("click", function() {
+           
+            const kalenderElement = document.querySelector(".kalender");
+            if (kalenderElement) {
+                
+                kalenderElement.scrollIntoView({ behavior: "smooth" });
+            }
+        });
+    </script>
+
+
+
+
+
+</body>
+</html>
